@@ -89,7 +89,7 @@ public class EcommerceTestCases extends BasePage {
         Assert.assertEquals(checkoutPage.postalCodeRequiredError(), true);
     }
 
-    @Test //(Complete Checkout)
+    @Test //(Complete Checkout.)
     public void completeCheckoutFlow() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.addUsername().addPassword().clickLogin();
